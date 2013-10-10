@@ -3,7 +3,8 @@
 	up = pull
 	p = push
 	s = status -s
-	df = diff --color --color-words --abbrev
+	st = status -sb
+	df = diff --cached
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [color]
 	ui = always
